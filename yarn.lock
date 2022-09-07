@@ -680,7 +680,7 @@
     tslib "2.2.0"
     uuid "8.3.2"
 
-"@nestjs/jwt@7.2.0":
+"@nestjs/jwt@^7.2.0":
   version "7.2.0"
   resolved "https://registry.yarnpkg.com/@nestjs/jwt/-/jwt-7.2.0.tgz#d55d15c861b3e0d67a852cbe6131b14c85246852"
   integrity sha512-uOTqYmWNpu+oS/MrdYjrWXtKGV4HkCYmAEVEFPP/KfiP/7K6fNy+boLllE6cnqESAXh9u0CLa1noAAavs+LHEQ==
@@ -688,10 +688,10 @@
     "@types/jsonwebtoken" "8.5.0"
     jsonwebtoken "8.5.1"
 
-"@nestjs/passport@^9.0.0":
-  version "9.0.0"
-  resolved "https://registry.yarnpkg.com/@nestjs/passport/-/passport-9.0.0.tgz#0571bb08f8043456bc6df44cd4f59ca5f10c9b9f"
-  integrity sha512-Gnh8n1wzFPOLSS/94X1sUP4IRAoXTgG4odl7/AO5h+uwscEGXxJFercrZfqdAwkWhqkKWbsntM3j5mRy/6ZQDA==
+"@nestjs/passport@^7.1.5":
+  version "7.1.6"
+  resolved "https://registry.yarnpkg.com/@nestjs/passport/-/passport-7.1.6.tgz#608bb265dfd85602aa74bbceacc012ffb2e9d25d"
+  integrity sha512-iHD/4D01CsKKWg7kUzo4yGNS4m90z1an0eUz+6nBlE5VeEOuCzhGFoBKAt0OKLJLOTEsJKuj4C2b5QfjqXVTyQ==
 
 "@nestjs/platform-express@^7.5.1":
   version "7.6.18"
@@ -4827,7 +4827,7 @@ pascalcase@^0.1.1:
   resolved "https://registry.yarnpkg.com/pascalcase/-/pascalcase-0.1.1.tgz#b363e55e8006ca6fe21784d2db22bd15d7917f14"
   integrity sha512-XHXfu/yOQRy9vYOtUDVMN60OEJjW013GoObG1o+xwQTpB9eYJX/BjXMsdW13ZDPruFhYYn0AG22w0xgQMwl3Nw==
 
-passport-jwt@4.0.0:
+passport-jwt@^4.0.0:
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/passport-jwt/-/passport-jwt-4.0.0.tgz#7f0be7ba942e28b9f5d22c2ebbb8ce96ef7cf065"
   integrity sha512-BwC0n2GP/1hMVjR4QpnvqA61TxenUMlmfNjYNgK0ZAs0HK4SOQkHcSv4L328blNTLtHq7DbmvyNJiH+bn6C5Mg==
@@ -4840,7 +4840,7 @@ passport-strategy@1.x.x, passport-strategy@^1.0.0:
   resolved "https://registry.yarnpkg.com/passport-strategy/-/passport-strategy-1.0.0.tgz#b5539aa8fc225a3d1ad179476ddf236b440f52e4"
   integrity sha512-CB97UUvDKJde2V0KDWWB3lyf6PC3FaZP7YxZ2G8OAtn9p4HI9j9JLP9qjOGZFvyl8uwNT8qM+hGnz/n16NI7oA==
 
-passport@0.4.1:
+passport@^0.4.1:
   version "0.4.1"
   resolved "https://registry.yarnpkg.com/passport/-/passport-0.4.1.tgz#941446a21cb92fc688d97a0861c38ce9f738f270"
   integrity sha512-IxXgZZs8d7uFSt3eqNjM9NQ3g3uQCW5avD8mRNoXV99Yig50vjuaez6dQK2qC0kVWPRTujxY0dWgGfT09adjYg==
