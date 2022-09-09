@@ -4,6 +4,7 @@ import { TypeOrmModule } from '@nestjs/typeorm';
 import { TasksRepository } from './tasks.repository';
 import { TasksController } from './tasks.controller';
 import { TasksService } from './tasks.service';
+import { JwtModule } from '@nestjs/jwt';
 import { AuthModule } from 'src/auth/auth.module';
 
 @Module({

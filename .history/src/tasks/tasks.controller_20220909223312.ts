@@ -20,6 +20,7 @@ import { AuthGuard } from '@nestjs/passport';
 import { GetUser } from 'src/auth/get-user.decorator';
 import { User } from 'src/auth/user.entity';
 import { Logger } from '@nestjs/common';
+import { ConfigService } from '@nestjs/config';
 
 @Controller('tasks')
 @UseGuards(AuthGuard())
@@ -28,8 +29,8 @@ export class TasksController {
 
   constructor(
     private tasksService: TasksService,
-  ) {
-  }
+    private configService: ConfigService
+    ) {}
 
   @Get()
   getTasks(

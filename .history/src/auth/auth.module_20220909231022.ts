@@ -23,6 +23,10 @@ import { JwtStrategy } from './jwt.strategy';
           expiresIn: 3600,
         },
       })
+      // secret: 'topSecret51',
+      // signOptions: {
+      //   expiresIn: 3600,
+      // },
     }),
     TypeOrmModule.forFeature([UsersRepository])
   ],
